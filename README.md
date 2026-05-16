@@ -231,34 +231,78 @@ Electrical / Streetlight Issue
 
 ---
 
-# 📂 Project Structure
+# 📂 Project Architecture
 
-```bash
-GRAMA-SAMASYA/
+```text
+GRAMA SAMASYA
 │
-├── client/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── assets/
-│   │   └── App.jsx
-│   │
-│   └── package.json
+├── 🎨 Frontend (React + TypeScript)
+│   ├── UI Components
+│   ├── Grievance Modules
+│   ├── Protected Routes
+│   ├── Context Management
+│   ├── Hooks & Utilities
+│   └── Responsive Pages
 │
-├── server/
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   ├── middleware/
-│   ├── utils/
-│   └── server.js
+├── 🤖 AI Integration
+│   ├── Issue Classification
+│   └── Complaint Categorization
 │
-├── README.md
-└── package.json
+├── 👥 Role-Based System
+│   ├── Citizen/User
+│   ├── Administrator
+│   └── Worker/Resolver
+│
+├── 🔔 Notification System
+│   ├── Toast Notifications
+│   └── Status Update Alerts
+│
+├── 🛠️ Configuration
+│   ├── Tailwind CSS
+│   ├── Vite Configuration
+│   ├── ESLint
+│   └── TypeScript Config
+│
+└── 🚀 Deployment
+    └── Vercel Hosting
 ```
 
 ---
+
+# 🧩 Frontend Module Structure
+
+```text
+src/
+│
+├── components/
+│   ├── grievance/
+│   ├── layout/
+│   ├── ui/
+│   └── debug/
+│
+├── contexts/
+├── hooks/
+├── lib/
+├── pages/
+├── types/
+│
+├── App.tsx
+├── main.tsx
+└── index.css
+```
+
+---
+
+# ⚙️ Development Stack
+
+```text
+Frontend  → React + TypeScript + Vite
+Styling   → Tailwind CSS + shadcn/ui
+State     → Context API + Hooks
+AI Layer  → Issue Classification Logic
+Routing   → Protected Route System
+Hosting   → Vercel
+```
 
 # ⚙️ Installation & Setup
 
